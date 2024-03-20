@@ -1,0 +1,72 @@
+.article {
+    margin: 50px auto;
+    width: 850px;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    border: 3px solid grey;
+    border-radius: 2px solid gray;
+    color: white;
+    font-size: 13px;
+    position: relative;
+
+    &__box {
+        width: 450px;
+        height: 450px;
+        background-color: rgb(8, 49, 55);
+        box-shadow: 2px 3px 4px rgb(127, 127, 130);
+        text-align: center;
+        padding: 10px;
+        border-radius: 25px;
+
+        &__img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid rgb(26, 26, 27);
+
+        }
+
+        & h1,
+        & h2 {
+            text-transform: uppercase;
+        }
+
+
+    }
+
+    &__tragger {
+        width: 150px;
+        display: flex;
+        justify-content: space-around;
+        font-size: 45px;
+        color: black;
+        font-weight: bold;
+        position: absolute;
+        bottom: 60px;
+        cursor: pointer;
+    }
+
+    &__botton {
+        width: 150px;
+        position: absolute;
+        bottom: 10px;
+
+
+        & button {
+            width: 150px;
+            padding: 10px;
+            border: none;
+            color: blue;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+
+    &__readmore {
+        cursor: pointer;
+    }
+}
